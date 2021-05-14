@@ -1,0 +1,154 @@
+/*Configurações Gerais*/
+body{
+    font-family: 'Roboto', sans-serif;    
+}
+a{
+    color: #fff;
+    font-size: 16px;
+}
+#select{
+    color: gold;
+}
+
+
+/*Fim de Configurações Gerais*/
+
+/*//////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+/*Configurações Específicas*/
+/*TOPO*/
+.topo{
+    width: 100%;
+    height: 80px;
+    background-color: #373E53;
+    padding: 10px 0;
+}
+.topo img{
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+}
+.tel, .email, .rua{
+    margin-top: 5px;
+}
+
+.rua a, .tel a, .email a, .horario {
+    font-size: 14px;    
+    font-weight: 300;
+    line-height: 21px;
+    text-align: center;
+    color: #fff;
+    font-style: normal;
+}
+.horario{
+    text-align: end;    
+}
+/*FIM DO TOPO*/
+/*HEADER - MENU*/
+.header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    padding: 10px 0;
+    border-bottom: 1px solid #002463;
+    background-color: rgba(0, 36, 99, 0.3);
+}
+
+.menu ul{
+    text-align: end;
+    margin-top: 25px;
+}
+.menu ul li{
+    display: inline-block;    
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    
+}
+.menu ul li:hover::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: gold;
+    margin: 5px auto;
+}
+
+
+
+/*FIM DO HEADER - MENU*/
+/*Sessão PRINCIPAL*/
+.principal{
+    background: url(../imgs/bg-home/PRINCIPAL.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+.principal::before{
+    content: "";
+    display: block;
+    width: 30%;
+    min-width: 150px;
+    height: 9px;
+    background-color: #002463;
+    margin: 0px auto;
+    position: relative;
+    top: 95px;
+    border-radius: 15px;
+}
+.principal .container{
+    position: inherit;
+}
+.conteudo-principal{
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+.conteudo-principal .title{
+    font-family: 'Cinzel Decorative', cursive;
+    color: #fff;
+    font-size: 42px;
+    letter-spacing: .1em;    
+}
+.conteudo-principal .title::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px auto;
+}
+.conteudo-principal .subtitle{
+    margin-top: 20px;
+    color: #fff;
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: .1em;
+}
+.conteudo-principal .call{
+    margin-top: 80px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+}
+.conteudo-principal .btn{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #373E53;
+    border-style: none;
+}
+.conteudo-principal .btn:hover{
+    background-color: #002463;
+    
+}
+
+/*Fim do Sessão PRINCIPAL*/
+
+
+/*Fim de Configurações Específicas*/
