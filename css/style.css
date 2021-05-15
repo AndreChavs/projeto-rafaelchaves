@@ -9,6 +9,14 @@ a{
 #select{
     color: gold;
 }
+.titulos{
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #002463;
+    text-align: center;
+}
 
 
 /*Fim de Configurações Gerais*/
@@ -51,11 +59,13 @@ a{
     border-bottom: 1px solid #002463;
     background-color: rgba(0, 36, 99, 0.3);
     z-index: 10;
+    transition: 0.5s ease;
 }
 
 .menu ul{
     text-align: end;
     margin-top: 25px;
+    transition: 0.5s ease;
 }
 .menu ul li{
     display: inline-block;    
@@ -151,14 +161,7 @@ a{
 .sobre{
     padding: 50px 0;
 }
-.titulos{
-    font-size: 32px;
-    font-weight: bold;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-    color: #002463;
-    text-align: center;
-}
+
 .descricao-sobre{
     margin: 0;
 }
