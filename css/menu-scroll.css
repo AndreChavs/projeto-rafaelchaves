@@ -1,14 +1,15 @@
 /*aplicação do stylo depois do Scroll da página*/
 .scrolling-active.header{   /*elemento criado ao rolar o scroll do documento.*/
+    position: fixed;
     top: 0;
     background-color:#002463; /*o Fundo muda quando o posicionamento do scroll for > 0*/
-    height: 10vh; /*altura do menu principal*/
+    height: 80px; /*altura do menu principal*/
     transition: 0.5s ease;
 }
-.scrolling-active .menu ul{
+/*.scrolling-active .menu ul{
     margin-top: 15px;
     transform: 0.5s ease;
-}
+}*/
 /*
 @media (max-width: 999px){
     .scrolling-active ul.nav-list{
