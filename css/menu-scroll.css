@@ -6,6 +6,10 @@
     height: 80px; /*altura do menu principal*/
     transition: 0.5s ease;
 }
+.scrolling-active.principal::before{
+    opacity: 0;
+    transition: opacity 100ms;
+}
 /*.scrolling-active .menu ul{
     margin-top: 15px;
     transform: 0.5s ease;
