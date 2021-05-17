@@ -23,16 +23,4 @@
     }
 }
 */
-.scrolling-active li.nav-item a{
-    color: #cecece;
-}
-.scrolling-active li.nav-item a:hover{
-    color: rgb(70, 31, 212);
-    
-}
-
-.scrolling-active a.logo{
-    color: #cac7c7;
-}
-
 /*Apply styles after scroll end*/

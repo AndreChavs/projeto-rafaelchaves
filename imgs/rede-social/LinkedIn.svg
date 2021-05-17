@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_77" data-name="Rectangle 77" width="40" height="40" transform="translate(122)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_11" data-name="Mask Group 11" transform="translate(-122)" clip-path="url(#clip-path)">
+    <g id="Dribbble-Light-Preview" transform="translate(122.073 0.032)">
+      <g id="icons">
+        <path id="linkedin-_161_" data-name="linkedin-[#161]" d="M349.365,18304.256H341.38v-13.975c0-3.834-1.692-5.973-4.724-5.973-3.3,0-5.258,2.246-5.258,5.973v13.975h-7.985V18278.3H331.4v2.914a9.63,9.63,0,0,1,8.15-4.395c5.647,0,9.817,3.455,9.817,10.582v16.852Zm-35.051-30.1a4.91,4.91,0,1,1,4.874-4.914,4.907,4.907,0,0,1-4.874,4.914Zm-4.876,30.1h9.982V18278.3h-9.982Z" transform="translate(-309.438 -18264.326)" fill="#0093e5" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>
