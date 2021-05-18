@@ -17,6 +17,11 @@ a{
     color: #002463;
     text-align: center;
 }
+.texto-titulo{
+    width: 500px;
+    margin: 25px auto 50px auto;
+    text-align: center;
+}
 
 
 /*Fim de Configurações Gerais*/
@@ -233,13 +238,9 @@ a{
 /*Areas de Atuação*/
 .area{
     padding: 50px 0;
-    clear: both;    
+    background-color: #D9E0E6;   
 }
-.area .texto{
-    width: 500px;
-    margin: 25px auto 50px auto;
-    text-align: center;
-}
+
 .area ul li img{
     width: 220px;
 }
@@ -306,7 +307,14 @@ a{
 .icon-redes-sociais-separador li:hover{
     background-color: #D9E0E6;
 }
-
 /*FIM do Separador Redes Sociais*/
+/*PRINCIPAIS SERVIÇOS*/
+.principais-servicos{
+    width: 100%;
+    padding: 50px 0;
+    
+}
+
+/*FIM DE PRINCIPAIS SERVIÇOS*/
 
 /*Fim de Configurações Específicas*/
