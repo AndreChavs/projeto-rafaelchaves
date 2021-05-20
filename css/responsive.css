@@ -1,6 +1,62 @@
 /*Estilo para Tablets*/
 @media only screen and (min-width: 793px) and (max-width:984px){
-
+    /*TOPO*/
+    .rua a, .tel a, .email a, .horario {
+        font-size: 12px;        
+        line-height: 18px;        
+    }
+    /*PRINCIPAL*/
+    .conteudo-principal .title{
+        width: 300px;
+        margin: 10px;
+        text-align: center;
+    }
+    .call{
+        text-align: center;
+    }
+    /*SOBRE*/
+    .descricao-sobre img{
+        width: 226px;
+        height: 226px;
+    }
+    .sobre .conteudo-sobre p{
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: normal;
+    }
+    /*1º SEPARADOR*/
+    .titulo-separador{
+        font-size: 16px;
+    }
+    .texto-separador{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    /*AREAS DE ATUAÇÃO*/
+    .texto-titulo{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+    }
+    .area ul li img {
+        width: 172px;
+    }
+    .desc{
+        width: 100%;
+        font-size: 14px;
+    }
+    /*2º SEPARADOR*/
+    .separador-redes-sociais ul .p-1{
+        margin-top: 0;
+    }
+    /*PRINCIPAIS SERVIÇOS*/
+    .principais-servicos ul li p {
+        width: 236px;
+    }
+    /*FOOTER*/
+    .footer .copyright{
+        margin-top: 20px;
+    }
 }
 
 /*Estilo para SmathPhone*/
