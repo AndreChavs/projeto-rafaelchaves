@@ -144,4 +144,8 @@
     .desc {
         width: 100%;
     }
+    /*SEPARADOR - REDES SOCIAIS*/
+    .separador-redes-sociais {
+        height: auto;
+    }
 }
