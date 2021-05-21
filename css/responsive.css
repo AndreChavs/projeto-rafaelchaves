@@ -114,6 +114,7 @@
     /*1º - SEPARADOR*/
     .separador{
         padding: 15px 0;
+        height: auto;
     }
     .titulo-separador {
         width: 300px;
