@@ -61,5 +61,16 @@
 
 /*Estilo para SmathPhone*/
 @media only screen and (max-width:793px){
-
+    /*TOPO*/
+    .topo {
+        height: auto;
+    }
+    .rua , .tel , .email , .horario {
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 18px;
+        text-align: center;
+        color: #fff;
+        font-style: normal;
+    }
 }
