@@ -63,14 +63,85 @@
 @media only screen and (max-width:793px){
     /*TOPO*/
     .topo {
-        height: auto;
+        overflow: hidden;
+        padding-top: 5px;
     }
-    .rua , .tel , .email , .horario {
+    .email{
+        display: none;
+    }
+    .rua , .tel , .email, .horario{
         font-size: 12px;
         font-weight: 300;
         line-height: 18px;
         text-align: center;
         color: #fff;
         font-style: normal;
+        margin-bottom: 0px;
+    }
+    .tel a, .rua a{
+        font-size: 12px;
+    }
+
+    /*MENU*/
+    .menu ul{
+        text-align: center;
+        margin:5px
+    }
+    .menu ul li{
+        margin:0 20px 10px 0;
+        font-size: 12px;
+    }
+    /*PRINCIPAL*/
+    .conteudo-principal .call {
+        margin-top: 50px;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 300;
+        text-align: center;
+    }
+    .btn{
+        width: 100%;
+    }
+    .btn a{
+        font-size: 14px;
+    }
+    /*SOBRE*/
+    
+    .conteudo-sobre p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    /*1º - SEPARADOR*/
+    .separador{
+        padding: 15px 0;
+    }
+    .titulo-separador {
+        width: 300px;
+        margin: 0 auto 10px auto;
+        font-size: 16px;
+    }
+    .texto-separador{
+        width: 300px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    /*
+    Títulos de sessão*/
+    .titulos{
+        width: 300px;
+        font-size: 26px;
+        margin: 0px auto 20px auto;
+    }
+    .texto-titulo {
+        width: 300px;
+        margin: 15px auto 40px auto;
+        text-align: center;
+        font-size: 14px;
+    }
+    .area ul li img {
+        width: 100%;
+    }
+    .desc {
+        width: 100%;
     }
 }

@@ -1,0 +1,58 @@
+
+.mobile-menu-icon div{
+    width: 32px;    /*largura*/
+    height: 2px;    /*altura*/
+    background-color: rgb(255, 255, 255); /*cor de fundo*/
+    margin: 8px;    /*distanciamento externo*/
+    transition: 0.5s ease;  /*Efeito de tempo da animação*/
+}
+/*Estilo para SmathPhone*/
+@media only screen and (max-width:793px){
+    body{
+        overflow-x: hidden; /*se algo transbodar, ficará escondido atras do body*/
+    }
+    .menu{
+        position: absolute;
+        top: 90px;  /* posição: logo abaixo do menu */
+        right: 0;   /*posicionado à direita*/
+        width: 30vw;
+        height: 92vh;
+        background-color: #9e9e9e;        
+        transform: translateX(100%);
+        transition: 0.5s ease;
+    }
+    .menu ul{
+        text-align: inherit;
+        margin-top: 25px;
+        transition: 0.5s ease;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-list li.nav-item{
+        margin-left: 0;
+        opacity: 0;
+    }    
+    .mobile-menu-icon{
+        display: block;
+    }
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px) ;
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.mobile-menu-icon.active .linha1{
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+.mobile-menu-icon.active .linha2{
+    opacity: 0;
+}
+.mobile-menu-icon.active .linha3{
+    transform: rotate(45deg) translate(-5px, -7px);
+}
