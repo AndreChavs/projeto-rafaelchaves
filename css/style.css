@@ -247,10 +247,11 @@ a{
     color: #D9E0E6;
     transition: 900ms ease;
 }
-.area ul li:hover{
-    background-color: #D9E0E6;
-    color: #002463;
+.area ul li:hover{    
+    background-color: #002463;
+    
     transition: 300ms ease;
+    padding: 0;
 }
 .desc{
     width: 220px;
