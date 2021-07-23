@@ -1,0 +1,39 @@
+.area{
+    padding: 6rem 0;
+    background: transparent;
+    text-align: center;
+}
+.texto{
+    @include type-2(16);
+    max-width: 510px;
+    margin: 0 auto 5rem auto;
+}
+.foto-area{
+    .foto-content{
+        cursor: pointer;
+        max-width: 384px;
+        margin: 0 auto;
+        filter: brightness(50%);
+        transition: .5s ease-in;
+        &:hover{
+            box-shadow: .6rem .6rem 2rem $gray-medium;
+            filter: brightness(100%);
+            transition: 1s ease;
+        }    
+    }
+    img{
+        max-width: 100%;
+    }
+    span{   
+        display: block;
+        padding: 1.5rem 0;
+        margin-top: -.2rem;
+        background: $gray-medium;
+        color: $white;
+        @include type-2(14);
+        @include device(s){
+            max-width: 383.99px;
+            margin: -.2rem auto 2rem auto;
+        }
+    }
+}

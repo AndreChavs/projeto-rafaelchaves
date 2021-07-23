@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advogado Trabalhista - Dr. Rafael Chaves</title>
+    <!-- googleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charm&family=Newsreader&family=Nunito:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- style -->
+    <link rel="stylesheet" href="css/scss/main.css">
+    <!-- icons - fontawesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+<body>    
+    <header class="header" id="home">
+        <!--topo  -->
+        <div class="topo">
+            <div class="container">
+                <div class="grid-3 tel">
+                    <a href=""><span><img src="img/icons/icon-phone.svg" alt="telefone"></span>+55 (93) 99150-2622</a>
+                </div>
+                <div class="grid-5 endereco">
+                    <span><img src="img/icons/icon-map.svg" alt="Lugar"></span>
+                    <address>Rua Ipiranga, 109, Santana - Santarém</address>
+                </div>
+                <div class="grid-4 hora">
+                    <img src="img/clock-solid.svg" alt="horário">
+                    <span>de Seg a Sex - Das 09:00 às 18:00</span>
+                </div>
+            </div>
+        </div>
+        <!-- navegação -->
+        <nav class="navbar">
+            <div class="container">
+                <div class="grid-5 logo">
+                    <a href="#home">Dr. Rafael Chaves</a>
+                </div>
+                <div class="mobile-menu">
+                    <div class="linha-1"></div>
+                    <div class="linha-2"></div>
+                    <div class="linha-3"></div>
+                </div>
+                <ul class="grid-6 menu">
+                    <li class="nav-item"><a href="#home" id="select">HOME</a></li>
+                    <li class="nav-item"><a href="#sobre">SOBRE</a></li>
+                    <li class="nav-item"><a href="#area">ÁREA</a></li>
+                    <li class="nav-item"><a href="#servicos">SERVIÇOS</a></li>
+                    <li class="nav-item"><a href="#contato">CONTATO</a></li>
+                </ul>       
+            </div>
+        </nav>
+        <!-- principal - Slidershow -->
+        <div class="slider">
+            <div class="myslider fade" style="display: block;">
+                <div class="text">
+                    <h1>Titulo</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank" class="btn">Clique Aqui</a>
+                <img src="img/img-1.jpg" alt="Direito-Trabalhista 1">
+            </div>
+            <div class="myslider fade">
+                <div class="text">
+                    <h1>Título</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank" class="btn">Clique Aqui</a>
+                <img src="img/img-2.jpg" alt="Trabalhista-Rafael Chaves">
+            </div>
+            <div class="myslider fade">
+                <div class="text">
+                    <h1>Título</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank" class="btn">Clique Aqui</a>
+                <img src="img/img-3.jpg" alt="Rafael Chaves - Advogado Trabalhista">
+            </div>
+            <a id="seta" class="prev" onclick="plusSlide(-1)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="44.316" height="39.445" viewBox="0 0 44.316 39.445"><defs></defs><path class="a" d="M1012.467,318.343c-41.53,18.006,0,37.623,0,37.623l-37.695-17.844L971,336.337Z" transform="translate(-968.579 -317.426)"/></svg>
+            </a>
+            <a id="seta" class="next" onclick="plusSlide(1)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="44.316" height="39.445" viewBox="0 0 44.316 39.445"><defs><style>.a{fill:none;stroke:#fffefe;stroke-width:2px;}</style></defs><path class="a" d="M971,318.343c41.53,18.006,0,37.623,0,37.623l37.695-17.844,3.772-1.786Z" transform="translate(-970.572 -317.426)"/></svg>
+            </a>
+            <div class="dotsbox" style="text-align:center;">
+                <span class="dot active" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>                
+            </div>            
+        </div>
+    </header>
+<!-- SOBRE -->
+    <section class="sobre" id="sobre">
+        <h1 class="titulo">Sobre</h1>
+        <div class="container">
+            <div class="grid-4">
+                <div class="foto">
+                    <img src="img/fotos/foto-rafael.jpg" alt="Perfil Rafael Chaves">
+                </div>
+                <h3 class="nome">Dr. Rafael Chaves</h3>
+                <p class="profissao">Advogado e Consultor Jurídico - OAB/PA 31.637</p>
+                
+            </div>
+            <div class="grid-8">
+                <p class="texto-sobre">
+                    Além de advogado, sou escritor e também professor de francês, tendo vivido por 10 anos na Suíça, país em que conheci diversas culturas diferentes, realizei networkings e também estudei e me qualifiquei como pessoa e profissional.
+                </p>
+                <h3 class="sub-titulo-sobre">Carreira como Profissional</h3>
+                <p class="texto-sobre">
+                    Advogado atuante na área cível e trabalhista, com 30 anos de idade, graduado pela Universidade Luterana Brasileira, em Santarém-Pará, tendo, durante o período de graduação, estagiado no Ministério Público do Trabalho da 8ª Região, por 2 (dois) anos, onde adquiriu vasta experiência na área trabalhista, além de ter conhecimento e prática significante na área cível, buscando atuar de forma eficiente e ágil para a resolução das demandas dos nossos clientes.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="separador-1">        
+        <h2 class="sub-titulo">
+            Seja Bem vindo(a) minha página. 
+        </h2>
+        <p class="texto-separador">
+            A seguir um breve resumo sobre as áreas que atuo, meus principais serviços e atividades que executo como advogado e consultor jurídico.
+        </p>
+    </section>
+
+    <section class="area" id="area">
+        <h1 class="titulo">Áreas de Atuação</h1>
+        <p class="texto">Estas são as principais áreas do Direito que atuo frequentemente.
+            Clique nos cards abaixo e saiba mais sobre os serviços específicos de cada uma das áreas.</p>
+        <div class="container">
+            <div class="grid-4 foto-area">
+                <div class="foto-content dir-civil">
+                    <img src="img/imagens/direito-civil.jpg" alt="Direto Civil e Processo Civil">
+                    <span>Direito Civil</span>
+                </div>
+            </div>
+            <div class="grid-4 foto-area">
+                <div class="foto-content dir-civil">
+                    <img src="img/imagens/direito-de-familia.jpg" alt="Direito de Família">
+                    <span>Direito de Família</span>
+                </div>
+            </div>
+            <div class="grid-4 foto-area">
+                <div class="foto-content dir-trab">
+                    <img src="img/imagens/direito-do-trabalho.jpg" alt="Direito do Trabalho">
+                    <span>Direito do Trabalho</span>
+                </div>
+            </div>            
+        </div>        
+    </section>
+
+    <section class="separador-2">
+        <h2 class="sub-titulo">SIGA-ME NAS REDES SOCIAIS</h2>
+        <div class="container">
+            <div class="grid-4">
+                <p class="texto-separador">Acompanhe minhas publicações diariamente, onde costumo compartilhar minhas opiniões técnicas sobre diversos temas jurídicos.</p>
+            </div>
+            <div class="grid-4 redes-icons">
+                <a href="#"><img src="img/icons/facebook.png" alt="facebook"></a>
+                <a href="#"><img src="img/icons/insta.png" alt="instagran"></a>
+                <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank"><img src="img/icons/whats.png" alt="whatsapp"></a>
+            </div>
+            <div class="grid-4">
+                <p class="texto-separador">Veja, na próxima sessão, sobre meus principais serviços e um pouco mais sobre cada um deles.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="servicos" id="servicos">
+        <h1 class="titulo">Principais Serviços</h1>
+        <div class="container servicos-container">
+            <div class="grid-12 container">
+                <div class="grid-4 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%20Div%C3%B3rcio%20e%20Separa%C3%A7%C3%A3o." target="_blank">Divórcio ou Separação Judicial e Extrajudicial</a>
+                </div>
+                <div class="grid-4 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20um%20consultoria%20sobre%20Pens%C3%A3o%20Aliment%C3%ADcia" target="_blank">Pensão alimentícia</a>
+                </div>
+                <div class="grid-4 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%20Direito%20de%20guarda%20de%20filhos%20menores" target="_blank">Direito de guarda de filhos menores</a>
+                </div>
+            </div>
+            <div class="grid-12 container">
+                <div class="grid-4 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%20Indeniza%C3%A7%C3%A3o%20Danos%20Morais%20e%20Materiais" target="_blank">Indenização Danos Morais e Materiais</a>
+                </div>
+                <div class="grid-4 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%20Responsabilidade%20Civil" target="_blank">Responsabilidade Civil</a>
+                </div>
+                <div class="grid-4 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%20Invent%C3%A1rio" target="_blank">Inventário</a>
+                </div>
+            </div>
+            <div class="grid-12 container">
+                <div class="grid-4 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%20Indeniza%C3%A7%C3%A3o%20por%20acidente%20de%20trabalho" target="_blank">Indenização por acidente de trabalho</a>
+                </div>
+                <div class="grid-4 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%20Demiss%C3%A3o%20com%2Fsem%20justa%20causa" target="_blank">Demissão com/sem justa causa</a>
+                </div>
+                <div class="grid-4 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%20N%C3%A3o%20pagamento%20de%20horas%20extras" target="_blank">Não pagamento de horas extras</a>
+                </div>
+            </div>
+        </div>
+        <p class="texto">Clique aqui e entre em contato agora comigo
+            para a resolução desses e outros problemas. Seja atendido de forma online, sem sair de casa !
+        </p>
+        <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank" class="botao">Contato</a>      
+
+    </section>
+
+    <section class="contato" id="contato">
+        <h1 class="titulo">Contato</h1>
+        <div class="container">
+            <div class="grid-4 card-contato">
+                <div><img src="img/icons/mapa.png" alt="mapa de localização"></div>
+                <h3>Endereço</h3>
+                <div class="linha"></div>
+                <address>Santarém - Pará</address>
+                <address>Rua Floriano Peixoto, 561, Centro</address>
+            </div>
+            <div class="grid-4 card-contato">
+                <div><img src="img/icons/contato.png" alt="contato de celular"></div>
+                <h3>Contato</h3>
+                <div class="linha"></div>
+                <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank">(93)99198-2120</a>
+                <a href="">keysandr7@gmail.com</a>
+            </div>
+            <div class="grid-4 card-contato">
+                <div><img src="img/icons/trabalho.png" alt="Hora de Trabalho"></div>
+                <h3>Funcionamento</h3>
+                <div class="linha"></div>
+                <span>De Segunda a Sexta <br> das 09:00 às 18:00 horas</span>
+                <div class="func">
+                    <div class="circle"></div>
+                    <span class="txt"></span>
+                </div>
+            </div>            
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-info">
+            <p>2021 - &copy; Copyright Rafael Chaves - Alguns direitos reservados.</p>
+        </div>
+    </footer>
+    
+    <!-- MODAL -->
+    <div class="modal-wrapper">
+        <div class="container modal">            
+            <img class="grid-6 offset-3 img" src="img/imagens/familia-img.jpg" alt="familia">
+            <h1 class="grid-12 title-modal">Direito Cível e Família</h1>
+            <p class="grid-8 offset-2 texto">Nosso escritório atua na área cível e também de família, estamos acostumados a lidar de maneira eficiente com ok seguintes casos:</p>
+            <div class="grid-12 container">
+                <div class="grid-4 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank">Divórcio ou Separação Judicial e Extrajudicial</a>
+                </div>
+                <div class="grid-4 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank">Divórcio ou Separação Judicial e Extrajudicial</a>
+                </div>
+                <div class="grid-4 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank">Divórcio ou Separação Judicial e Extrajudicial</a>
+                </div>
+            </div>
+            <div class="grid-12 container">
+                <div class="grid-4 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank">Divórcio ou Separação Judicial e Extrajudicial</a>
+                </div>
+                <div class="grid-4 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank">Divórcio ou Separação Judicial e Extrajudicial</a>
+                </div>
+                <div class="grid-4 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank">Divórcio ou Separação Judicial e Extrajudicial</a>
+                </div>
+            </div>
+            <div class="grid-12 container">
+                <div class="grid-4 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank">Divórcio ou Separação Judicial e Extrajudicial</a>
+                </div>
+                <div class="grid-4 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank">Divórcio ou Separação Judicial e Extrajudicial</a>
+                </div>
+                <div class="grid-4 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank">Divórcio ou Separação Judicial e Extrajudicial</a>
+                </div>
+            </div>
+            <div class="grid-12 container">
+                <div class="grid-4 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank">Divórcio ou Separação Judicial e Extrajudicial</a>
+                </div>
+                <div class="grid-4 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank">Divórcio ou Separação Judicial e Extrajudicial</a>
+                </div>
+                <div class="grid-4 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank">Divórcio ou Separação Judicial e Extrajudicial</a>
+                </div>
+            </div>
+            <div class="grid-12 container">
+                <div class="grid-4 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank">Divórcio ou Separação Judicial e Extrajudicial</a>
+                </div>
+                <div class="grid-4 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank">Divórcio ou Separação Judicial e Extrajudicial</a>
+                </div>
+                <div class="grid-4 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank">Divórcio ou Separação Judicial e Extrajudicial</a>
+                </div>
+            </div>
+            <a class="botao" href="#">Voltar</a>
+            <a href="#" class="btn-esc">X</a>            
+        </div>
+    </div>
+
+    <div class="modal-wrapper">
+        <div class="container modal">
+            <img class="grid-6 offset-3 img" src="img/imagens/trabalhos.jpg" alt="trabalhadores">
+            <h1 class="grid-12 title-modal">Direito do Trabalho</h1>
+            <p class="grid-8 offset-2 texto">Na seara trabalhista, no que concerne aos direitos dos <strong>EMPREGADOS</strong> ou <strong>EMPREGADORES</strong>, trabalhamos com o os seguintes serviços:</p>
+            <div class="grid-6 container">
+                <h2 class="title-modal grid-12">EMPREGADOS</h2>                
+                <div class="grid-6 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank">Indenização por acidente de trabalho</a>
+                </div>
+                <div class="grid-6 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank">Indenização por danos morais</a>
+                </div>                
+                <div class="grid-6 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank">Demissão com/sem justa causa</a>
+                </div>
+                <div class="grid-6 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank">Adicionais de periculosidade, insalubridade, noturno e demais</a>
+                </div>
+                <div class="grid-6 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank">Assédio moral</a>
+                </div>
+                <div class="grid-6 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank">Não pagamento de horas extras, ou qualquer outro direito </a>
+                </div>
+                <div class="grid-6 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank">Acordos não cumpridos</a>
+                </div>
+                <div class="grid-6 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank">Rescisão indireta </a>
+                </div>
+            </div>
+            <div class="grid-6 container">
+                <h2 class="title-modal grid-12">EMPREGADORES</h2>                
+                <div class="grid-6 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank">Acompanhamento processual na seara judicial e extrajudicial, em todas as etapas do processo</a>
+                </div>
+                <div class="grid-6 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank">Assessorias judiciais e preventivas, com o objetivo de promover ajustes internos na conduta e, por conseguinte, evitar o ajuizamento de novas reclamações por parte de empregados</a>
+                </div>                
+                <div class="grid-6 item-servico">
+                    <a href="https://api.whatsapp.com/send?phone=5593991502622&text=Ol%C3%A1%2C%20Dr%20Rafael%20Chaves.%20Preciso%20de%20uma%20consultoria%20sobre%3A%20" target="_blank">Acompanhamento processual em todas as etapas, seja judicial ou extrajudicial, promovendo a defesa de seus interesses e contribuindo, consequentemente, para o crescimento da empresa</a>
+                </div>
+                
+            </div>                
+                <a class="botao" href="#">Voltar</a>
+                <a href="#" class="btn-esc">X</a>
+        </div>
+    </div>
+
+
+<!-- JavaScript -->
+<script src="js/slider-show.js"></script>
+<script src="js/menu-scroll.js"></script>
+<script src="js/menu-responsive.js"></script>
+<script src="js/horario.js"></script>
+<script src="js/modal.js"></script>
+</body>
+</html>
+
+
